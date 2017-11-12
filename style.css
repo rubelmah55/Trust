@@ -1,0 +1,131 @@
+/*
+Theme Name: Hypemill Child
+Theme URI: azizultex.me
+Description: Wordpress theme for Trustee Education website.
+Author: Azizul Haque
+Author URI: azizultex.me
+Template: salient
+Version: 0.1
+*/
+h1{
+	text-transform: uppercase;
+    font-size: 60px;
+    line-height: 64px;
+}
+.btn-ex{
+	font-size: 25px !important;
+	width: 75%;
+	padding: 30px 0 !important;
+}
+.owl-controls {
+    display: none !important;
+}
+ul#menu-footer-menu {
+    display: inline-block;
+    margin: 0 !important;
+}
+ul#menu-footer-menu li {
+    list-style: none;
+    float: left;
+    
+}
+input.email {
+    border: 1px solid #213F7E;
+    font-size: 16px;
+    font-weight: bold;
+}
+ul#menu-footer-menu li a {
+    padding:0 12px !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000 !important;
+}
+ul#menu-footer-menu li a:hover {
+    color: #fff !important;
+}
+div#footer-widgets {
+    width: 70%;
+    margin: 0 auto;
+}
+ #footer-outer #footer-widgets form .email{
+    width: 40% !important;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.swiper-slide .content h2 {
+    width: 70%;
+    margin: 0 auto !important;
+    margin-bottom: 30px !important;
+}
+.item-image {
+    transition: all 0.5s;
+    padding: 20px !important;
+}
+.item-image:hover {
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+}
+img.img-with-animation[data-animation="fade-in-from-left"]{
+	padding-right: 0 !important;
+}
+@media (max-width: 768px){
+
+	ul#menu-footer-menu li a {
+	    padding: 10px 0 !important;
+	}
+	ul#menu-footer-menu li{
+		float: none !important;
+	}
+}
+ul.income li {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+ul.income li span{
+	width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-right: 5px;
+
+}
+ul.serve-list li {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+ul#menu-school-menu li, ul#menu-join-us li{
+    list-style: none;
+    padding: 5px 0;
+}
+ul#menu-school-menu li a, ul#menu-join-us li a {
+    font-size: 18px;
+    color: #ddd;
+    font-weight: bold;
+}
+ul#menu-school-menu li a:hover, ul#menu-join-us li a:hover{
+	color: #213f7e;
+}
+header#top .sf-menu >li:hover >ul{
+	top: 60px !important;
+}
+body[data-dropdown-style="minimal"][data-header-color="light"] #header-outer:not(.transparent) .sf-menu >li ul {
+    border-top: 0 !important;
+}
+body[data-dropdown-style="minimal"] .sf-menu >li ul {
+    padding: 10px;
+    width: 20em;
+}
+header#top .sf-menu li ul li a {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 0;
+}
+body[data-dropdown-style="minimal"] #header-outer header#top nav > ul > li:not(.megamenu) ul a:hover{
+	background: transparent !important;
+}
