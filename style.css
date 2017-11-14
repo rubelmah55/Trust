@@ -1,5 +1,5 @@
 /*
-Theme Name: Hypemill Child
+Theme Name: Salient Child
 Theme URI: azizultex.me
 Description: Wordpress theme for Trustee Education website.
 Author: Azizul Haque
@@ -118,14 +118,17 @@ body[data-dropdown-style="minimal"][data-header-color="light"] #header-outer:not
     border-top: 0 !important;
 }
 body[data-dropdown-style="minimal"] .sf-menu >li ul {
-    padding: 10px;
+    padding: 0px;
     width: 20em;
 }
 header#top .sf-menu li ul li a {
     font-size: 14px;
     font-weight: bold;
-    padding-left: 0;
+    padding: 10px 10px;
 }
 body[data-dropdown-style="minimal"] #header-outer header#top nav > ul > li:not(.megamenu) ul a:hover{
 	background: transparent !important;
+}
+.margin-left{
+	margin-left: 0 !important;
 }
