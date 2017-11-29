@@ -7,6 +7,14 @@ Author URI: azizultex.me
 Template: salient
 Version: 0.1
 */
+@media only screen and (max-width: 767px){
+	#footer-outer #footer-widgets .col input[type=email]{
+		width: 70% !important;
+	}
+	.container-wrap{
+		padding-top: 0 !important;
+	}
+}
 h1{
 	text-transform: uppercase;
     font-size: 60px;
@@ -43,12 +51,18 @@ ul#menu-footer-menu li a {
 ul#menu-footer-menu li a:hover {
     color: #fff !important;
 }
+ #footer-outer #footer-widgets form .email{
+    width: 40% !important;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
 div#footer-widgets {
     width: 70%;
     margin: 0 auto;
 }
- #footer-outer #footer-widgets form .email{
-    width: 40% !important;
+ #footer-outer #footer-widgets .col input[type=email]{
+    width: 40%;
     margin: 0 auto;
     margin-bottom: 15px;
     margin-top: 15px;
@@ -131,4 +145,12 @@ body[data-dropdown-style="minimal"] #header-outer header#top nav > ul > li:not(.
 }
 .margin-left{
 	margin-left: 0 !important;
+}
+div[data-style="default"] .toggle h3 a, div[data-style="default"] .toggle h3 {
+    font-size: 16px!important;
+    line-height: 20px!important;
+    color: #000 !important;
+}
+.toggle {
+    border: 1px solid #000;
 }
